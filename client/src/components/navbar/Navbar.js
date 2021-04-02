@@ -10,8 +10,8 @@ const Navbar = () => {
 	}
 	return (
 		<div className="navbar">
-			<div className="navbar-container">
-				<div className="navbar-logo">
+			<div className="navbar-container row w-100">
+				<div className="navbar-logo col">
 					<div className="navbar-logo-container">
 						<Link to="/" style={navStyle}>
 							<span>my</span>tutor

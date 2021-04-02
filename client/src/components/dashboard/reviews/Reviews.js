@@ -25,7 +25,7 @@ const Reviews = () => {
 						<div className="review-reactions">
 							<div className="review-like-btn review-act-btn">
 								<ThumbUpAltOutlinedIcon /> &nbsp;{" "}
-								<spam className="review-likes-count">27 likes</spam>
+								<span className="review-likes-count">27 likes</span>
 							</div>
 							<div className="review-delete-btn review-act-btn">
 								<DeleteIcon />
@@ -42,7 +42,7 @@ const Reviews = () => {
 						<div className="review-reactions">
 							<div className="review-like-btn review-act-btn">
 								<ThumbUpAltOutlinedIcon /> &nbsp;{" "}
-								<spam className="review-likes-count">42 likes</spam>
+								<span className="review-likes-count">42 likes</span>
 							</div>
 							<div className="review-delete-btn review-act-btn">
 								<DeleteIcon />
@@ -61,7 +61,7 @@ const Reviews = () => {
 						<div className="review-reactions">
 							<div className="review-like-btn review-act-btn">
 								<ThumbUpAltOutlinedIcon /> &nbsp;{" "}
-								<spam className="review-likes-count">32 likes</spam>
+								<span className="review-likes-count">32 likes</span>
 							</div>
 							<div className="review-delete-btn review-act-btn">
 								<DeleteIcon />
