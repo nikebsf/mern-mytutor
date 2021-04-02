@@ -13,8 +13,19 @@
 
 # {
 #     "fname": "Zakir",
-#     "lname": "Khyzm",
+#     "lname": "Khyzm22",
 #     "institution": "Conestoga College"
 # }
 
-GET http://localhost:5000/api/profs
+//GET http://localhost:5000/api/profs
+
+
+POST http://localhost:5000/api/profs
+Content-Type: application/json
+
+{
+    "profFName" : "harnish",
+    "profLName" : "mistry",
+    "profUni" : "Conestoga"
+}
+

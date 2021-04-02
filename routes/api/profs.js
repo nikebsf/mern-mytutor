@@ -28,15 +28,29 @@ router.get('/',(req,res) => {
 })
 
 
+// router.post('/',(req,res) => {
+//     const newProf = new Prof({
+//         fname: req.body.fname,
+//         lname: req.body.lname,
+//         institution: req.body.institution
+//     })
+
+//     newProf.save()
+//     .then(prof => res.json(prof))
+// })
+
+// after implementing axios and used request component form to add professor in db
+
 router.post('/',(req,res) => {
+    
     const newProf = new Prof({
-        fname: req.body.fname,
-        lname: req.body.lname,
-        institution: req.body.institution
+         fname : req.body.profFName,
+         lname : req.body.profLName,
+         institution : req.body.profUni
     })
 
     newProf.save()
-    .then(prof => res.json(prof))
+    .then(prof => res.json(prof));
 })
 
 module.exports = router

@@ -1,11 +1,13 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const cors = require("cors");
 
 const app = express();
 
 // bodyparser middleware
 // BodyParse is built into Express js So now you don't have to install body-parser, do this instead
 //app.use(bodyParser.json());
+app.use(cors());
 app.use(express.json());
 
 // DB config
